@@ -1,0 +1,184 @@
+######## For swapped cluster ######
+
+Randomly selected row 515 for centriod m2.
+A2      4.0
+A3     10.0
+A4      4.0
+A5      7.0
+A6      3.0
+A7     10.0
+A8      9.0
+A9     10.0
+A10     1.0
+Name: 515, dtype: float64
+
+Randomly selected row 312 for centriod m4.
+A2      8.0
+A3      6.0
+A4      4.0
+A5     10.0
+A6     10.0
+A7      1.0
+A8      3.0
+A9      5.0
+A10     1.0
+Name: 312, dtype: float64
+
+Program ended after 10 iteration(s).
+
+Final centroid m2:
+0    2.69
+1    7.16
+2    7.13
+3    7.00
+4    6.09
+5    5.65
+6    7.82
+7    6.28
+8    6.38
+dtype: float64
+
+Final centroid m4:
+0    1.11
+1    3.23
+2    1.41
+3    1.57
+4    1.39
+5    2.16
+6    1.69
+7    2.21
+8    1.35
+dtype: float64
+
+Final cluster assignment: 
+         ID  Class Predicted Class
+0   1000025      2               4
+1   1002945      2               2
+2   1015425      2               4
+3   1016277      2               2
+4   1017023      2               4
+5   1017122      4               2
+6   1018099      2               4
+7   1018561      2               4
+8   1033078      2               4
+9   1033078      2               4
+10  1035283      2               4
+11  1036172      2               4
+12  1041801      4               4
+13  1043999      2               4
+14  1044572      4               2
+15  1047630      4               4
+16  1048672      2               4
+17  1049815      2               4
+18  1050670      4               2
+19  1050718      2               4
+20  1054590      4               2
+
+
+
+Error B: 212.79620853080567 %
+Error M 41.39344262295082 %
+Total Error: 93.13304721030042 %
+
+
+Clusters are swapped as total_error > 50 % 
+Recalculating the errors...
+
+Error B: 1.8442622950819672 %
+Error M 18.48341232227488 %
+Total Error: 6.866952789699571 %
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+######## For un-swapped cluster ######
+
+Randomly selected row 91 for centriod m2.
+A2     3.0
+A3     1.0
+A4     1.0
+A5     2.0
+A6     2.0
+A7     1.0
+A8     1.0
+A9     1.0
+A10    1.0
+Name: 91, dtype: float64
+
+Randomly selected row 471 for centriod m4.
+A2     6.0
+A3     1.0
+A4     1.0
+A5     3.0
+A6     2.0
+A7     1.0
+A8     1.0
+A9     1.0
+A10    1.0
+Name: 471, dtype: float64
+
+Program ended after 6 iteration(s).
+
+Final centroid m2:
+0    1.11
+1    3.23
+2    1.41
+3    1.57
+4    1.39
+5    2.16
+6    1.69
+7    2.21
+8    1.35
+dtype: float64
+
+Final centroid m4:
+0    2.69
+1    7.16
+2    7.13
+3    7.00
+4    6.09
+5    5.65
+6    7.82
+7    6.28
+8    6.38
+dtype: float64
+
+Final cluster assignment: 
+         ID  Class Predicted Class
+0   1000025      2               2
+1   1002945      2               4
+2   1015425      2               2
+3   1016277      2               4
+4   1017023      2               2
+5   1017122      4               4
+6   1018099      2               2
+7   1018561      2               2
+8   1033078      2               2
+9   1033078      2               2
+10  1035283      2               2
+11  1036172      2               2
+12  1041801      4               2
+13  1043999      2               2
+14  1044572      4               4
+15  1047630      4               2
+16  1048672      2               2
+17  1049815      2               2
+18  1050670      4               4
+19  1050718      2               2
+20  1054590      4               4
+
+
+
+Error B: 1.8442622950819672 %
+Error M 18.48341232227488 %
+Total Error: 6.866952789699571 %
+                                   
